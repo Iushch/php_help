@@ -184,12 +184,12 @@ set_include_path(get_include_path().PATH_SEPARATOR.'');
 spl_autoload_register();   
 
 ###### Работа с каталогами:
-file_exists() - существует ли директория 
-mkdir - создаём директорию
-rmdir - удаялет ТОЛЬКО пустую директорию
-glob('*.php') -
-scandir()
-explode("/n", $str);
+file_exists() - существует ли директория    
+mkdir - создаём директорию   
+rmdir - удаялет ТОЛЬКО пустую директорию   
+glob('*.php') -   
+scandir()   
+explode("/n", $str);   
 
 ###### Регулярные выражения:
 $reg1 = '/a b/'   
